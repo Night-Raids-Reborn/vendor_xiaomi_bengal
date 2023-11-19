@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter citrus lime,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),bengal)
 
 endif
